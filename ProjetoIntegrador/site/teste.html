@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando</title>
+</head>
+<body>
+    <button id="botaoTeste">Testar</button>
+    <button id="teste">Testar GET com PHP</button>
+    <label for="codigo">Digite o codigo:</label>
+    <input type="text" id="codigo" name="codigo" />
+    <button id="test">Testar POST com PHP</button>
+    <label for="url">Digite o endereco URL:</label>
+    <input type="text" id="url" placeholder="Digite o URL aqui">
+    <select id="method">
+        <option value="GET">GET</option>
+        <option value="POST">POST</option>
+    </select>
+    <button id="fetchGet" onclick="getData()">Testar GET com Fetch API</button>
+    <form id="fetchCEP">
+        <label for="cep">CEP</label><br>
+        <input type="text" id="cep"><br>
+        <label for="logradouro">Logradouro</label><br>
+        <input type="text" id="logradouro" style="width:20em;"><br>
+        <label for="bairro">Bairro</label><br>
+        <input type="text" id="bairro"><br>
+        <label for="localidade">Localidade</label><br>
+        <input type="text" id="localidade"><br>
+        <label for="uf">UF</label><br>
+        <input type="text" id="uf"><br>
+        <input type="reset" value="Limpar">
+    </form><br>
+    <button id="fetchPOST">Testar POST com Fetch API</button><br>
+    <button id="fetchPostApi">Testar POST com Fetch API e API externa</button>
+
+    <div id="demo"></div>
+
+    <script type="text/javascript" src="ajax.js"></script>
+</body>
+</html>

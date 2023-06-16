@@ -1,0 +1,9 @@
+1-arquivo do excel 
+2- workbook
+3- sheets
+4-rows
+5-cells
+6- values
+7-colunas
+rowData: formado por células->pega tamanho da célula específca e
+quanto ele tem que colocar de largura na coluna (espaçamento) - tabela

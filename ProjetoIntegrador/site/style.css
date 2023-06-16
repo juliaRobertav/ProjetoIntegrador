@@ -1,0 +1,153 @@
+/* principais */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f0eb;
+}
+
+main {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: #f2f0eb;
+}
+html, body {
+  background-color: #fff;
+  font-size: 62.5%;
+}
+@media only screen and (min-width: 1200px){
+html {
+  font-size: 15px;
+  }
+}
+@media only screen and (min-width: 992px){
+html {
+  font-size: 14.5px;
+  }
+}
+@media only screen and (min-width: 0){
+html {
+  font-size: 14px;
+  }
+}
+html {
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+  font-weight: normal;
+  color: rgba(0,0,0,0.87);
+}
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/*carousel*/
+.carousel {
+  background-color: #f2f0eb; /* Cor de fundo desejada */
+}
+
+
+.carousel-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px; 
+}
+
+.carousel-image-container img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+
+/* cafes*/
+
+
+.page {
+  background-color: #f2f0eb;
+  color: #000;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.page h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.page p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.page .container {
+  max-width: 1200px;
+}
+
+.page .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page .col-md-6 {
+  flex: 1;
+}
+
+.page .image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.page .content {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .page .row {
+    flex-direction: column;
+  }
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 2rem;
+  font-size: 18px;
+  text-decoration: none;
+  background-color: #00704a;
+  color: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005b3f;
+}
+
+
+
+/*footer*/
+#contact {
+  text-align: center;
+  background-color: #fff;
+  width: 100%;
+}
+
+#contact h3 {
+  font-size: 24px;
+}
+
+#contact p {
+  font-size: 16px;
+}
